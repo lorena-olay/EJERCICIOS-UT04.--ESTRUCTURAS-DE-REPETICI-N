@@ -14,7 +14,14 @@ public class EJ01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         System.out.println("Hola");
+         int x = 1;
+       
+        while (x<=100) {
+            System.out.print(x);
+            System.out.print(" - ");
+            x = x + 1;
+        }
+
     }
     
 }
