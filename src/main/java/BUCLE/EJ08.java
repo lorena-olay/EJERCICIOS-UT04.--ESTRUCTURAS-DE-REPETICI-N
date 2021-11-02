@@ -18,6 +18,12 @@ public class EJ08 {
         // TODO code application logic here
         /*Intenta averiguar qué realiza el siguiente programa, sin implementarlo. 
         Implementa el programa en el entorno y compara tus resultados con la ejecución.*/
+        int j=1;
+        for (int i= -13; i<=-10; i++) {
+            j++;
+        }
+        System.out.println(j);
+
     }
     
 }
