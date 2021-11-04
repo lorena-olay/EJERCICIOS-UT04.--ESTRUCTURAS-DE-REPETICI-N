@@ -14,11 +14,14 @@ public class EJ10 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        char i;
         // TODO code application logic here
         //Implementa un programa Java que permita visualizar todas las letras 
         //minúsculas, desde la 'a' hasta la 'z', usando un for.
-        
-
+        for(i = 'a';i=='z';i++){
+        System.out.println(i);
+        System.out.println("-");
+    }
     }
     
 }
